@@ -64,7 +64,7 @@ app.get('/api/notes', (req,res) => {
         res.json(notes)
     })
 })
-const PORT = process.env.PORT
+const PORT = process.env.PORT 
 app.listen(PORT, () => {
     console.log(`server running on port ${PORT}`)
 })
